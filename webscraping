@@ -1,0 +1,13 @@
+Genérico:
+XPATH Title: =IMPORTXML("urlentreaspas","xpathdoconteudo")
+
+Comando completo para pegar o título (tag title) de um site:
+=IMPORTXML("urlentreaspas","//title")
+
+Teste:
+=IMPORTXML("URL: http://youtube.com/djobix/","//title")
+
+XPATH
+XPATH Title: //title
+XPATH H1: //h1
+XPATH H2: //h2
